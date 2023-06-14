@@ -3,46 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>  
+    <!-- this is the CDN link for D3 Javascript so we can use the libraries -->
+
+    <link rel="stylesheet" href="DGraph.css">/>
+    <!-- this is the link to the stylesheet -->
     <title>D3 BarGraph</title>
-    <style>
-      body {
-        background-image: url("1.jpg");
-        background-repeat: no-repeat;
-      }
-
-      #container1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-        margin-top: 91px;
-      }
-
-      g {
-        color: white;
-        font-size: larger;
-        font-family: Cambria;
-      }
-
-      h2 {
-        color: white;
-        align-items: end;
-        display: flex;
-        font-family: cursive;
-        font-size: 27px;
-      }
-
-      .rectangle:hover{
-        opacity: 0.66;
-      }
-
-    </style>
   </head>
   <body>
-    <div id="container1">
+    <div id="container1"> <!-- this is our container which hold the graph and the title -->
       <h2>Bar Graph Representing<br/> Marks Of Students</h2>
-      <div id="d3-container"></div>
+      <div id="d3-container"></div>  <!-- this is out main div holding the graph -->
     </div>
-    <script src="DGraph.js"></script>
+    <script src="DGraph.js"></script>  
+    <!-- this is the source of out javascript file -->
   </body>
 </html>

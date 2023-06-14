@@ -1,0 +1,29 @@
+body{
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+  }
+
+  #container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 91px;
+  }
+
+  g {
+    color: white;
+    font-size: larger;
+    font-family: Cambria;
+  }
+
+  h2 {
+    color: white;
+    align-items: end;
+    display: flex;
+    font-family: cursive;
+    font-size: 27px;
+  }
+
+  .rectangle:hover{
+    opacity: 0.66;
+  }
