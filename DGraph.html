@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <title>D3 BarGraph</title>
-</head>
-<body>
+    <style>
+      body {
+        background-image: url("1.jpg");
+        background-repeat: no-repeat;
+      }
+
+      #container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin-top: 91px;
+      }
+
+      g {
+        color: white;
+        font-size: larger;
+        font-family: Cambria;
+      }
+
+      h2 {
+        color: white;
+        align-items: end;
+        display: flex;
+        font-family: cursive;
+        font-size: 27px;
+      }
+
+      .rectangle:hover{
+        opacity: 0.66;
+      }
+
+    </style>
+  </head>
+  <body>
     <div id="container1">
-        <h2>D3 Bar Graph for data</h2>
-    <div id="d3-container"></div>
+      <h2>Bar Graph Representing<br/> Marks Of Students</h2>
+      <div id="d3-container"></div>
     </div>
     <script src="DGraph.js"></script>
-</body>
+  </body>
 </html>
